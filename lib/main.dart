@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:starflut/starflut.dart';
 
+//test from VS Code
 void main() => runApp(  MyApp());
 
 class MyApp extends StatelessWidget {
@@ -22,7 +23,6 @@ class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
   final String title;
-
   @override
   _MyHomePageState createState() =>   _MyHomePageState();
 }
@@ -31,9 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String _outputString = "python 3.6";
 
   bool _isButtonDisabled = true;
-
   TextEditingController myController;
-
   StarSrvGroupClass srvGroup;
 
 
