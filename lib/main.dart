@@ -150,11 +150,11 @@ class _MyHomePageState extends State<MyHomePage> {
                Row(
                 mainAxisAlignment:MainAxisAlignment.end,
                 children: <Widget>[
-                   RaisedButton(
+                   ElevatedButton(
                       onPressed: (){myController.text="";setState((){});},
                       child:   Text("Clar")
                   ),
-                   RaisedButton(
+                   ElevatedButton(
                       onPressed: _isButtonDisabled ? null:runScriptCode,
                       child:   Text("Run")
                   ),
